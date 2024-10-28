@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="NINE.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <style>
+  
+.grid-container-top {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #FFFFF;
+  text-align: left;
+  padding-top: 40px;
+  font-family:  Helvetica, Arial, sans-serif 
+  
+}
+
+.grid-item-class {
+  padding-left: 110px;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 200;
+  
+  font-family:  Helvetica, Arial, sans-serif 
+}
+
+.grid-item-name {
+  padding-right: 110px;
+  padding-top: px;
+  line-height: 0.5;
+  font-size: 15px;
+  text-align: right;
+  font-weight: 200;
+  font-family:  Helvetica, Arial, sans-serif 
+}
+
+
+
+      .grid-container-menu {
+  display: grid;
+  margin-right: 90px;
+  margin-left: 90px;
+  margin-top: 45px;
+  margin-bottom: 180px;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  background-color: #FFFFF;
+  
+  line-height:1px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+  font-family:  Helvetica, Arial, sans-serif
+    
+}
+  
+ 
+.heading{
+  background-color: #FFFFF;
+  margin-right: 320px;
+  margin-left: 320px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 200;
+  font-family:  Helvetica, Arial, sans-serif
+}
+   
+
+.text-container {
+  margin-right: 300px;
+  margin-left: 300px;
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #FFFFF;
+  padding: 0px;
+}
+.text-item {
+  background-color: rgba();
+  
+  padding: 20px;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 200;
+  font-family:  Helvetica, Arial, sans-serif
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+  </style>
+</head>
+
+<title>Week 9</title>
+
+<div class="grid-container-top">
+  <div class="grid-item-class">
+          <a href="https://usermichelle.github.io/CODEWORDS2024/homeSKO">
+              <img src="data/house1.gif" width="110" 
+              height="110">
+                           
+          </a>        
+          
+          </div>
+
+  <div class="grid-item-name">
+  <p>codewords SKO 2024</p>
+  <p>michelle hoang</p>
+  
+  </div>
+</div>
+
+<body>
+
+
+
+
+
+<div class="grid-container-menu">
+
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/ONE/">one</a></div>
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/TWO/">two</a></div>
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/THREE/">three</a></div>  
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/FOUR/">four</a></div>
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/FIVE/">five</a></div>
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/SEVEN/">seven</a></div>  
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/EIGHT/">eight</a></div>
+  <div class="grid-item"><span style="color: blue"><em>nine</em></span></div>
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/TEN/">ten</a></div> 
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/ELEVEN/">eleven</a></div>
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/TWELVE/">twelve</a></div>
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/THIRTEEN/">thirteen</a></div>
+
+ 
+</div>
+
+<div class="heading">
+Week Nine
+</div>
+
+<div class="text-container">
+  
+
+  <div class="text-item">
+      <p>
+In the morning we had a quick look at the useful nature of visual references, where we observed works from Japanese modernist designer Ikko Tanaka. His works involved geometric yet bold and colourful compositions. By gathering visual references for our project it helps us to learn and gain inspiration on what makes an effective design. During the week as I was conveniently studying at the RMIT library, I managed to flip through a few design books and collected some pages of visual references that I liked and considered how they could be reimagined as interactive websites. I was able to find works by Toshio Yamagata, sourced from Art Direction Japan and Hideki Inaba’s “ Typeface Sheet"/ “Sheet2000” sourced from JaPan Graphics (JPG).
+       </p>
+        
+        <center>
+  <img src="data/research3.png" width="312"> <img src="data/research.png" height="225"> <img src="data/research2.png" height="225">
+  </center>
+  
+  
+ 
+       
+       <p>Week 9 also marked the start of really focusing on our projects and getting started on the code to progressively build our websites. By having a more self-guided week, I took the time to work on coding my SKO website in class. As I had already planned on the layout of my starting page and landing page I wanted to start on linking the two pages together. My idea was that on the starting page the user would be able to click on the animated house the enter the landing page. Found a tutorial on youtube that allowed me to utilise an image (my animated house gif) as a button that can be clicked to link to another page through HTML. Although I managed to link the two pages together it still had some minor tweaks to be made which I needed assistance on.
+        </p>
+        
+         <p>The tutorial I followed:
+<a href="https://www.youtube.com/watch?v=D6aHo1VvCc8&t=138s&ab_channel=themesCode" target="_blank">How To Use An Image As A Link In HTML by themesCode</a>
+</p>
+      
+
+       <p>In the afternoon we then learnt how to work with classes in P5.js by creating wiggly letters. By following this tutorial it showed us how to code letters that randomly generate when the page is clicked. The letters will then begin shaking and and changing sizes. By learning about how to create classes through this tutorial, I found it a little confusing to get my head around and and why certain lines of code function. However it was useful to know as it was also an important part of code for my final project.
+        </p>
+        
+        <center>
+  <img src="data/letters.gif" width="600"> 
+  </center>
+  
+   <p>During the week I also started re doing the code for the bouncing spheres which I found another tutorial by Patt Vira that followed what I was looking for. The video demonstrated how to code balls that can spawn and bounce when the user clicks on the webpage. However as I followed the tutorial and substituted the ellipse shapes with the sphere elements I created with Illustrator the page would not respond. After checking and adjusting the code multiple times I struggled finding a solution so I left it for debugging in our next class. 
+</p>
+
+<p>The tutorial I followed:
+<a href="https://www.youtube.com/watch?v=gOtLcEC-4NM&t=40s&ab_channel=PattVira" target="_blank">p5.js Coding Tutorial | Array of Bouncing Balls (OOP / mousePressed) by Patt Vira</a>
+</p>
+
+<p> I also refined my animal party gif on Procreate by adding more animals like I intended as well as little musical notes that surrounds the party. The animals consist of a cat, bear, dog, frog and rabbit, each with their own animated dance moves and accessories. The gif was made with two layers with 5 frames per second that flip back and forth. Overall I am quite satisfied with how this revised gif turned out and its pixelated strokes that add some character to its design.  
+
+</p>
+      
+  
+ <center>
+  <img src="data/danceparty.gif" width="300"> 
+  </center>
+      
+
+ 
+</div>
+
+</body>
+</html>
