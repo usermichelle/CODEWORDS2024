@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="TEN.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <style>
+  
+.grid-container-top {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #FFFFF;
+  text-align: left;
+  padding-top: 40px;
+  font-family:  Helvetica, Arial, sans-serif 
+  
+}
+
+.grid-item-class {
+  padding-left: 110px;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 200;
+  
+  font-family:  Helvetica, Arial, sans-serif 
+}
+
+.grid-item-name {
+  padding-right: 110px;
+  padding-top: px;
+  line-height: 0.5;
+  font-size: 15px;
+  text-align: right;
+  font-weight: 200;
+  font-family:  Helvetica, Arial, sans-serif 
+}
+
+
+
+      .grid-container-menu {
+  display: grid;
+  margin-right: 90px;
+  margin-left: 90px;
+  margin-top: 45px;
+  margin-bottom: 180px;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  background-color: #FFFFF;
+  
+  line-height:1px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+  font-family:  Helvetica, Arial, sans-serif
+    
+}
+  
+ 
+.heading{
+  background-color: #FFFFF;
+  margin-right: 320px;
+  margin-left: 320px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 200;
+  font-family:  Helvetica, Arial, sans-serif
+}
+   
+
+.text-container {
+  margin-right: 300px;
+  margin-left: 300px;
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #FFFFF;
+  padding: 0px;
+}
+.text-item {
+  background-color: rgba();
+  
+  padding: 20px;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 200;
+  font-family:  Helvetica, Arial, sans-serif
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+  </style>
+</head>
+
+<title>Week 10</title>
+
+<div class="grid-container-top">
+  <div class="grid-item-class">
+          <a href="https://usermichelle.github.io/CODEWORDS2024/homeSKO">
+              <img src="data/house1.gif" width="110" 
+              height="110">
+                           
+          </a>        
+          
+          </div>
+
+  <div class="grid-item-name">
+  <p>codewords SKO 2024</p>
+  <p>michelle hoang</p>
+  
+  </div>
+</div>
+
+<body>
+
+
+
+
+
+<div class="grid-container-menu">
+
+<div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/ONE/">one</a></div>
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/TWO/">two</a></div>
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/THREE/">three</a></div>  
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/FOUR/">four</a></div>
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/FIVE/">five</a></div>
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/SEVEN/">seven</a></div>  
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/EIGHT/">eight</a></div>
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/NINE/">nine</a></div>
+  <div class="grid-item"><span style="color: blue"><em>ten</em></span></div> 
+   <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/ELEVEN/">eleven</a></div>
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/TWELVE/">twelve</a></div>
+  <div class="grid-item"><a href="https://usermichelle.github.io/CODEWORDS2024/THIRTEEN/">thirteen</a></div>
+
+ 
+</div>
+
+<div class="heading">
+Week Ten
+</div>
+
+<div class="text-container">
+  
+
+  <div class="text-item">
+      <p>
+We had a shorter class this week which only left us with half of our usual time (3 hours). With the time that I had it was important for me to debug my project that I had difficulties with. I was able to get assistance from Karen where we managed to revise the entire code and get the spheres to spawn and move around the page. 
+</p>
+
+       
+       <p>During the week I also continued coding my SKO where I started coding a button that played audio when pressed. I created a spotify playlist a few weeks ago that provided some inspiration and style of instrumental I wanted for my SKO. The music overall had bouncy rhythms and a playful mood which was really what I had in mind to fit my animated gifs. I also had a look through the Freesound website to collect additional instrumentals that I could possibly use for my website, I managed to find a few that were in the style I was aiming for and that could loop. 
+      </p>
+      
+      <center>
+  <img src="data/playlist.png" height="300"> <img src="data/freesound.png" height="300"> 
+  </center>
+      
+      <p>From this idea I found a p5.js sketch on how to create a play and pause button and coded it to my website and I chose the audio Rocktronica by Tsundere Twintails to test it. The button was able to play, pause and resume where it had paused, but I wasn’t sure how to keep looping the audio. 
+      </p>
+      
+       <p>Instead of dwelling on how to loop the audio I just moved on to the placement and customisation of the button. I played around with the its position and started of with placing it on the top left of the screen but then I decided to place it in the center of the page above the dance party as it made the webpage look more balanced. I also then changed the colour, sizing and words written in the button. 
+        </p>
+        
+         <p>References followed:</p>
+<p><a href="https://editor.p5js.org/Ruyi_Chen/sketches/S1fIxzCn7" target="_blank">17.2: Play and Pause Button - p5.js Sound Tutorialby Ruyi_Chen</a></p>
+<p><a href="https://editor.p5js.org/sanelicv/sketches/UiGs8D5kP" target="_blank">Button Customize
+by sanelicv</a></p>
+<p><a href="https://editor.p5js.org/elinsterz/sketches/NvK3RRihj" target="_blank">Button style changes
+by elinsterz</a></p>
+      
+
+       <p>I also started thinking about how to structure my reflection onto the website and planned to have the text and images scroll/slide out at the bottom of the dance party when the weeks are clicked instead of opening separate pages. I also learnt the code of createA() where it creates a link to another page on p5.js. I’m not sure if it can be used to show text on the same page, but it could be something useful to know. 
+   </p>
+
+        
+        <center>
+  <img src="data/button3.gif" width="600"> 
+  </center>
+  
+
+  
+  
+ 
+</div>
+
+</body>
+</html>
